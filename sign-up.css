@@ -1,0 +1,45 @@
+body{
+    background: url(image/cinestream.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.backgroun{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.521); /* Adjust opacity as needed */
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+}
+.my-form{
+min-width: 300px;
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.4px);
+-webkit-backdrop-filter: blur(7.4px);
+border: 1px solid rgba(255, 255, 255, 0.38);}
+input{
+    background: transparent !important;
+}
+input::placeholder{
+    color: white !important;
+}
+.button{
+    margin: auto !important;
+}
+
+@media screen and (max-width:769px) {
+    .my-form{
+        width: 70% !important;
+        @media screen  and (max-width: 480px) {
+            width: 90% !important;
+            
+        }
+    }
+}

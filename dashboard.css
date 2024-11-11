@@ -1,0 +1,45 @@
+body{
+    background: url(my-pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-logo{
+    font-size: 1.1rem !important; /* Adjust size as needed */
+    font-weight: 700 !important;
+    letter-spacing: 0.2em !important;
+    text-transform: uppercase !important;
+    color: #ffffff ;
+    background: linear-gradient(60deg, #ff1e56, #ffac41) ; /* Gradient effect */
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important; /* Gradient text effect */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) !important; /* Subtle shadow for depth */
+    transition: 0.9s;
+}
+.my-logo:hover{
+    transform: scale(1.1)  !important;
+    box-shadow: 2px 2px 10px 20px #c5531e
+    2px 2px 20px 40px #c5531e;
+}
+.my-nav{
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.d-grid{
+    grid-template-columns: repeat(4, 1fr);
+    border: 8px solid yellow;
+}
+/* .my-con{
+    height: 200px;
+    width: 200px;
+    background-color: #c5531e;
+} */
+.movie-list{
+    color: white;
+    margin: 10px 15px;
+    border-radius: 9px;
+}
