@@ -31,7 +31,6 @@ body{
 
 .d-grid{
     grid-template-columns: repeat(4, 1fr);
-    border: 8px solid yellow;
 }
 /* .my-con{
     height: 200px;
@@ -42,4 +41,36 @@ body{
     color: white;
     margin: 10px 15px;
     border-radius: 9px;
+    position:relative;
 }
+.movie-con{
+    height: 340px;
+    width: 300px;
+    background-color: rgb(39, 38, 38);
+}
+.movie-con img{
+    height: 75%;
+    width: 80%;
+}
+.carousel,
+.carousel-item {
+    height: 340px;
+    width: 80%;
+    margin:auto;
+}
+.court{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.post{
+    height: 260px;
+    width: 260px;
+}
+/* .carousel-item{
+    height: 100%;
+}
+.carousel-inner{
+    width: 100%;
+    height: auto;
+} */

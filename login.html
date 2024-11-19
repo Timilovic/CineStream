@@ -9,7 +9,9 @@
 </head>
 <body class="d-flex align-items-center  justify-contents-center">
     <div class="backgroun">
-        <form action="" method="post" id="lg-form" class="form-control p-2 my-5 my-form w-25 m-auto ">
+        <form action="" method="post" id="lg-form" class="form-control p-2 my-form w-25 position-relative" style="top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);">
 
             <label for="email" class="text-white">Email</label>
             <input type="email" name="email" id="lg-email" class="form-control mb-3 login-email" placeholder="Enter email">
@@ -20,6 +22,8 @@
             <button  class="btn btn-success form-control w-50 m-auto d-block" id="lg-submit">Login</button>
 
         </form>
+        <div class="m-auto"><p class="lead text-white position-absolute">You don't have and account <a href="index.html" style="text-decoration: none !important;
+        margin-bottom: 40%;">Sign-up</a></p></div>
 
     </div>
     <script src="login.js"></script>
